@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <title> Contacto </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a class="item" href="index.html">Inicio</a></li>
+                <li><a class="item" href="#">Nosotros</a></li>
+                <li>
+                    <a class="item" href="contact.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-container">
+        <form id="form-container">
+
+            <div class="row">
+                <div class="col-12 mb-10">
+                    <label for="nombres">Nombres</label>
+                </div>
+                <div class="col-12 mb-10">
+                    <input type="text" class="custom-input" name="name" id="nombres"><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mb-10">
+                    <label for="apellidos">Apellidos</label>
+                </div>
+                <div class="col-12 mb-10">
+                    <input type="text" class="custom-input" name="lastname" id="apellidos"><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mb-10">
+                    <label for="correo">Correo</label>
+                </div>
+                <div class="col-12 mb-10">
+                    <input type="email" class="custom-input" name="email" id="correo"><br>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mb-10">
+                    <!--  <input type="submit" class="custom-btn" value="Enviar"> -->
+                    <button type="button" id="send" class="custom-btn">Enviar</button>
+                </div>
+            </div>
+
+        </form>
+    </main>
+    <footer id="custom-footer">
+        <p>Hecho por Melissa Casas</p>
+    </footer>
+    <script src="dom.js"></script>
+</body>
+
+</html>
